@@ -10,7 +10,7 @@ Requisitos:
 
 - Crear y activar entorno virtual (PowerShell):
   * python -m venv .venv
-  * Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned -Force 
+  * Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned -Force (solo si no funciona el comando de abajo)
   * .\\.venv\Scripts\Activate.ps1
 
 - Instalar dependencias:
