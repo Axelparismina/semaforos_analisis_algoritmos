@@ -9,13 +9,13 @@ Requisitos:
   cd backend
 
 - Crear y activar entorno virtual (PowerShell):
-  python -m venv .venv
-  Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned -Force  # si PowerShell bloquea scripts
-  .\.venv\Scripts\Activate.ps1
+  * python -m venv .venv
+  * Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned -Force 
+  * .\\.venv\Scripts\Activate.ps1
 
 - Instalar dependencias:
-  python -m pip install --upgrade pip
-  python -m pip install fastapi "uvicorn[standard]"
+  * python -m pip install --upgrade pip
+  * python -m pip install fastapi "uvicorn[standard]"
 
 - Ejecutar servidor:
   uvicorn server:app --reload --port 8000
